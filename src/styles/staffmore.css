@@ -1,0 +1,160 @@
+.rightSec1 img{
+    border-radius: 50px;
+    width: 90px;
+}
+.rightSec1Sub{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subSec1{
+    background-color: rgba(54, 170, 217, 0.15);
+    color: rgba(6, 118, 164, 1);
+    font-size: 12px;
+    font-weight: 450;
+    width: 120px;
+}
+.subSec2{
+    background-color: rgba(54, 170, 217, 0.15);
+    color: rgba(6, 118, 164, 1);
+    font-size: 12px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+.s1img{
+    background-color: rgba(54, 170, 217, 0.15);
+    padding: 5px;
+}
+.morebodySection{
+    padding-right: 0px;
+    display: flex;
+    gap: 20px;
+}
+.rightsec1{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.history1{
+    display: flex;
+}
+.history1 img{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-self: flex-start;
+}
+.historySec{
+    display: flex;
+    flex-direction: column;
+    font: 11px;
+    height: 50%;
+    width: 100%;
+}
+.choice{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 35px;
+}
+.choiceMeal{
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+    color: rgba(54, 170, 217, 1);
+}
+.choicePrice{
+    background-color: rgba(6, 118, 164, 0.3);
+    color: rgba(54, 170, 217, 1);;
+    border-radius: 5px;
+    width: 50px;
+    height: 50%;
+    font-size: 13px;
+}
+.historySec2{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 35px;
+    width: max-content;
+}
+.historySec2 p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.historySec2,span{
+    font-size: 13px;
+    font-weight: 400;
+}
+.x2{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.historySec3{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    font-size: 13px;
+    height: 35px;
+}
+.totalPrice{
+    display: flex;
+    margin-left: 270px;
+    color: black;
+    font-weight: 500;
+    padding-right: 20px;
+}
+.customerStatus{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.customerStatusSec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customerStatusSec1{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.inactive{
+    background: rgba(208, 71, 71, 0.15);
+    color: rgba(208, 71, 71, 1);
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.customerStatusSec2{
+    display: flex;
+    justify-content: space-between;
+}
+.customerS{
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+.customerS img{
+    width: 25px;
+}
+.customerS p{
+    font-size: 13px;
+
+}

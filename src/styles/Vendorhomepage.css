@@ -1,0 +1,386 @@
+.main{
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+}
+#nav-side{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 50px;
+    height: 100vh;
+    border: solid 1px grey;
+    border-color: rgba(119, 119, 119,0.3);
+    font-size: 12px;
+    font-weight: 500;
+}
+#nav-side a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 100%;
+    margin-left: 70px;
+}
+#nav-side hr{
+    width: 70%;
+}
+.logout{
+    color: red;
+}
+img{
+    width: 15px;
+    margin-right: 5px;
+    align-self: center;
+    justify-self: center;
+}
+.right{
+    width: 100%;
+}
+#topNav{
+    display: flex;
+    border: solid 1px purple;
+    border-color: rgba(119, 119, 119,0.3);
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+}
+.logo{
+    width: auto;
+    height: 50px;
+    margin-left: 20px;
+}
+.topNavSection1{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+.topNavSection2{
+    text-align: center;
+    width: 140px;
+    height: 70px;
+    margin-left: 650px;
+    box-shadow: 0.5px 0.2px 0 0.2px grey;
+    border-radius: 5px;
+}
+.topNavSection2Right{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    bottom: 39px;
+    right: 5px;
+}
+.switch{
+    position: relative;
+    z-index: 1;
+    top: 38px;
+}
+.topNavSection2>p{
+    position: relative;
+    font-weight: 100px;
+    bottom: 15px;
+}
+#section2Text{
+    color: rgb(140, 243, 140);
+}
+.topNavSection3{
+    display: flex;
+    margin-left: 40px;
+}
+#navselect{
+    background-image: url(C:\Users\PC\Documents\Restaurant\restaurant-project\src\Assets\calendar.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    margin-top: 18px;
+    text-align: center;
+    background-size: 15px;
+    width: 140px;
+    border: solid 1px black;
+}
+.avatar{
+    width: 30px;
+}
+.slider {
+    background-color: #ffffff2b;
+    border-radius: 100px;
+    padding: 1px;
+    margin: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    align-items: center;
+    position: relative;
+    display: block;
+    width: 31px;
+    height: 19px;
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, rgba(0, 0, 0, 0.21) 0px 0px 0px 24px inset,
+          #22cc3f 0px 0px 0px 0px inset, rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;
+  }
+  
+  .slider::after {
+    content: "";
+    display: flex;
+    top: 1.0px;
+    left: 1px;
+    width: 18px;
+    height: 18px;
+    background-color: #e3e3e3;
+    border-radius: 200px;
+    position: absolute;
+    box-shadow: transparent 0px 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
+    transition: left 400ms cubic-bezier(0.4, 0, 0.2, 1) 0s, background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    will-change: left, background-color;
+  }
+  
+  .switch input[type="checkbox"]:checked + .slider {
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, #22cc3f 0px 0px 0px 2px inset, #22cc3f 0px 0px 0px 24px inset,
+          rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;
+  }
+  
+  .switch input[type="checkbox"]:checked + .slider::after {
+    left: 15px;
+  }
+  
+  .switch input[type="checkbox"] {
+    display: none;
+}
+#body{
+    width: 100%;
+}
+.bodyheader{
+    width: 100%;
+}
+.btxt1{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(54, 170, 217,0.15);
+    color: #36aad9;
+    font-weight: bolder;
+    font-size: 18px;
+    align-content: center;
+    top: 18px;
+    border-radius: 5px 5px 0 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.btxt1line{
+    width: 97%;
+    margin-left: 30px;
+}
+.btxt2{
+    width: 150px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30px;
+}
+.btxt2 span{
+    font-size: 30px;
+}
+.pre-body{
+    display: flex;
+    align-items: center;
+}
+select{
+    background-image: url(C:\Users\PC\Documents\Restaurant\restaurant-project\src\Assets\calendar.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    margin-top: 18px;
+    text-align: center;
+    background-size: 15px;
+    width: 140px;
+    border: solid 1px #7777774d;
+    border-radius: 2px;
+}
+#option{
+    background-image: url(C:\Users\PC\Documents\Restaurant\restaurant-project\src\Assets\calendar.png);
+    background-repeat: no-repeat;
+    background-size: 20%; 
+}
+.columns{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+.col1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.recCard1{
+    display: flex;
+    border: solid 0.1px black;
+    border-color: rgba(119, 119, 119,0.3);
+    border-radius: 10px;
+    text-align: left;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    box-shadow: 3px 2px 10px -2px rgba(0, 0, 0, 0.15);
+
+}
+.recCard1 img{
+    width: 12%;
+    margin-left: 5px;
+}
+.recCard1Txt1{
+    font-weight: bold;
+}
+.recCard1Txt2{
+    /* align-self: self-end;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    font-size: 10px;
+    gap: 5px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: left;
+    border: solid 1px green; */
+
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    font-size: 10px;
+    font-weight: bolder;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: right;
+    padding-right: 20px;
+}
+.recCard1Txt2 span{
+    color: green;
+    margin-right: 20px;
+}
+.col2{
+    border: solid 1px black;
+    border-color: rgba(119, 119, 119,0.3);
+    padding-left: 10px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.15);
+}
+.paymentFlowTop{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.paymentFlowTopRight p{
+    font-weight: bold;
+}
+.paymentFlowTopRight span{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.statsSection{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.statsSection span{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 10px;
+}
+.statsSection img{
+    width: 350px;
+}
+.timeframe{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 28px;
+    padding-left: 40px;
+    height: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    bottom: 20px;
+}
+.paymentFlowCat{
+    display: flex;
+    background-color: rgba(128, 128, 128,0.1) ;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.paymentFlowCat a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+.col3{
+    border: solid 1px black;
+    border-color: rgba(119, 119, 119,0.3);
+    width: 30%;
+    text-align: center;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.15);
+
+}
+.col3 img{
+    width: 35px;
+}
+.col3-card{
+    display: flex;
+    font-size: 12px;
+    font-weight: bolder;
+    width: 80%;
+    text-align: left;
+}
+.col3 hr{
+    margin-right: 50px;
+}
+.col3 button{
+    display: flex;
+    width: 95%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: white ;
+    border: solid 1px black;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.txt1{
+    font-size: 10px;
+    font-weight: lighter;
+    color: grey;
+    font-weight: 400;
+}
+.tableContainer{
+    text-align: left;
+    padding: 20px 30px 0 30px;
+    border: solid 1px rgba(119, 119, 119,0.3);
+    border-radius: 10px;
+    height: 100vh;
+}
+.tableContainer p{
+    margin-left: 10px;
+}
+.tcTxt1{
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+.tcTxt2{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    font-weight: lighter;
+    font-size: 12px;
+    color: black;
+    bottom: 20px;
+}

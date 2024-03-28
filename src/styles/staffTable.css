@@ -1,0 +1,70 @@
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    color: rgba(54, 170, 217, 1);
+    border: solid 1px rgba(54, 170, 217, 1);
+    border-radius: 10px;
+    width: 90px;
+    height: 33px;
+}
+.deliver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: rgba(54, 170, 217, 1);
+    border-radius: 10px;
+    width: 90px;
+    height: 33px;
+}
+ span{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.rdt_Table{
+    display: flex;
+    font-size: 20px;
+    border: solid 1px green;
+    border-color: rgba(119, 119, 119,0.3);
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+ }
+ .rdt_TableRow{
+     height: 50px;
+ }
+ .rdt_TableCell{
+     font-weight: 500;
+ }
+ /* #root > div > div > div > div > div:nth-child(2) > nav{
+    display: flex;
+    color: black;
+    align-items: center;
+ }
+ #root > div > div > div > div > div:nth-child(2) > nav > span.sc-bZHSRq.sc-ilxebA.czCoqD.fAiwtk{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+ }
+ #root > div > div > div > div > div:nth-child(2) > nav > span.sc-bZHSRq.sc-kMzELR.czCoqD.iOgnCO{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+ }
+ #root > div > div > div > div > div:nth-child(2) > nav > div.sc-eAKtBH.gVtWSU{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+ }
+ #root > div > div > div > div > div:nth-child(2) > nav > div.sc-lnsjTu.epZUJV{
+    font-size: 10px;
+    font-weight: 500;
+ } */
+ .more{
+    display: flex;
+    flex-direction: column;
+    font-weight: 1000;
+    align-items: center;
+ }

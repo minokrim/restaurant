@@ -1,0 +1,80 @@
+.createvendor{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.prt-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    
+}
+.text{
+    font-size: 14px;
+    font-weight: 500;
+}
+.vendorId{
+    width: 90%;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1.5px solid rgba(163, 163, 163, 0.3);
+    border-radius: 5px;
+}
+.vendorNote{
+    width: 90%;
+    height: 206px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1.5px solid rgba(163, 163, 163, 0.3);
+    border-radius: 5px;
+}
+.createvendorButtons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sendButton{
+    background-color: rgba(54, 170, 217, 1);
+    width: 90%;
+    border: none;
+    height: 36px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+
+}
+.cancelButton{
+    background-color: rgba(255, 255, 255, 1);
+    width: 90%;
+    border: none;
+    height: 36px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+}
+.prt-2{
+    width: 45%;
+
+}
+.invite{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 297px;
+    height: 122px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.vnd{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 0;
+    padding-top: 0;
+}

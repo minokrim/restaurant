@@ -1,0 +1,88 @@
+.settingsHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin-left: 25px;
+}
+.settingsHeader P{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.subHeader{
+    font-size: 11px;
+    color: grey;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.settingsBody{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    gap: 15px;
+}
+.detail{
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+    width: 100%;
+}
+.label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.lableInput{
+    width: 400px;
+    height: 39px;
+    border-radius: 5px;
+    border: rgba(163, 163, 163, 0.3) 1.5px solid;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+.save{
+    background-color:rgba(54, 170, 217, 1);
+    color: white;
+    width: 250px;
+    height: 45px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cancel{
+    width: 250px;
+    height: 45px;
+    font-size: 16px;
+    border: rgba(163, 163, 163, 0.3) 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+.name{
+    margin-left: 69px;
+}
+.namelabel{
+    width: 100px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+.newpasslabel{
+    display: flex;
+}
+.pass{
+    margin-left: 59px;
+}
+.oldpass{
+    margin-left: 65px;
+}

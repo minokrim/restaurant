@@ -1,0 +1,94 @@
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: rgba(7, 140, 28, 1);
+    background-color: rgba(7, 140, 28, 0.15);
+    border: solid 1px rgba(7, 140, 28, 0.15);
+    border-radius: 10px;
+    width: 90px;
+    height: 33px;
+}
+
+ span{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.rdt_Table{
+    display: flex;
+    font-size: 20px;
+    border: solid 1px green;
+    border-color: rgba(119, 119, 119,0.3);
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+ }
+ .rdt_TableRow{
+     height: 50px;
+ }
+
+ .rdt_TableCell{
+     font-weight: 500;
+ }
+
+ .more{
+    display: flex;
+    flex-direction: column;
+    font-weight: 1000;
+    align-items: center;
+    cursor: pointer;
+ }
+
+ .rating{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    background-color: transparent;
+    gap: 10px;
+ }
+ .bars{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+ }
+ .rating p{
+   margin-top: 30px;
+   color: black;
+   font-size: 11px;
+   font-weight: 600;
+ }
+ .bar1{
+    background-color:rgba(54, 170, 217, 0.15);
+    width: 110px;
+    height: 8px;
+    border-radius: 20px;
+ }
+ .bar2{
+    position: relative;
+    background-color: rgba(54, 170, 217, 1);
+    width: 51px;
+    height: 8px;
+    border-radius: 20px;
+    bottom: 8px;
+ }
+ .ind{
+   font-size: 11px;
+   font-weight: 600;
+   color: rgba(7, 140, 28, 1);
+   background-color: rgba(7, 140, 28, 0.15);
+   border-radius: 2px;
+   width: 15%;
+   text-align: center;
+ }
+ .vendorrow{
+   display: flex;
+   font-weight: 500;
+   font-size: 14px;
+ }
+ .lastassesed{
+   width: 100%;
+   font-weight: 500;
+   font-size: 14px;
+ }

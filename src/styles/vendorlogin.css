@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.nav img{
+    width: 100px;
+    height: 40px;
+    align-self: center;
+}
+.nav p{
+    border: solid 1px #777777;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    align-items: center;
+}
+.stars{
+    position: relative;
+    z-index: 1;
+    top: 100px;
+}
+#star1{
+    position: relative;
+    z-index: 1;
+    left: 530px;
+    top: 30px;
+    width: 40px;
+
+}
+#star2{
+    position: relative;
+    z-index: 1;
+    top: 220px;
+    left: 510px;
+    width: auto;
+    height: 20px;
+
+}
+#star3{
+    position: relative;
+    z-index: 1;
+    top: 240px;
+    left: 80px;
+    width: auto;
+    height: 30px;
+}
+#star4{
+    position: relative;
+    z-index: 1;
+    top: 30px;
+    left: 60px;
+}
+.paragraph1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 100px;
+}
+.paragraph1 h1{
+    width: 100%;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: left;
+}
+.paragraph1 p{
+    width: 100%;
+    text-align: left;
+}
+.section2Header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10px;
+    text-align: left;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 100px;
+    
+}
+.section2{
+    display: block;
+    flex-direction: column;
+    align-self: center;
+    overflow-y: scroll;
+    overflow-x: none;
+    width: 100%;
+    height: 400px;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.main{
+    display: flex;
+    background-image: url(C:\Users\PC\Documents\Restaurant\restaurant-project\src\Assets\43040 1.png),url(C:\Users\PC\Documents\Restaurant\restaurant-project\src\Assets\630321.png);
+    background-size: 100%,40%;
+    background-repeat: no-repeat,no-repeat;
+    background-position: left,bottom right;
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    width: 100%;
+}
+.registrationForm{
+    width: 40%;
+    height: 520px;
+    left: 154px;
+    border: solid 2px #5ebbe1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: white;
+}
+.registrationForm h2{
+    color: #5ebbe1;
+    /* margin-left: 80px; */
+}
+.registrationForm p{
+    width: 77%;
+    display: flex;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+label{
+    width: 70%;
+    display: flex;
+    color: grey;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23.44px;
+    border-radius: 10px;
+    text-align: start;
+    margin-left: 32px;
+    padding-top: 10px;
+}
+input{
+    display: flex;
+    width: 455px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 30px;
+    border: black solid 1px;
+}
+#radio{
+    cursor: pointer;
+    width: 20px;
+    display: inline-block;
+    align-self: start;
+}
+#terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    gap: 20px;
+    padding-left: 20px;
+}
+#terms p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    margin-top: 75px;
+
+}
+button{
+    background-color: #48A5CB;
+    width: 60%;
+    height: 40px;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+#final{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;;
+    align-self: center;
+    margin-left: 160px;
+}
+#lgn{
+    font-weight: bolder;
+}
+.foodsection{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: 70px;
+}
+#foodImg{
+    display: flex;
+    width: auto;
+    height: 400px;
+}
+#rectangle{
+    z-index: 0;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    top: 150px;
+}
